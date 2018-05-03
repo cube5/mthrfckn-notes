@@ -31,7 +31,7 @@ export default class App extends Component {
           <Text style={styles.appTitle}>Welcome to React <span role="img">⚛</span>️</Text>
         </View>
         <Text style={styles.appIntro}>
-          To get started, edit src/App.js and save to reload.
+          To get started, <code>src/App.js</code> and save to reload.
         </Text>
       </View>
     )

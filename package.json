@@ -15,14 +15,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test:web": "react-scripts test --env=jsdom",
+    
     "start:native": "react-native-scripts start",
+    "test:native": "jest --watch",
+    "test:native:ci": "jest",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test:native": "jest"
-  },
-  "jest": {
-    "preset": "jest-expo"
+
+    "test": "CI=true npm run test:web && npm run test:native:ci"
   },
   "devDependencies": {
     "jest-expo": "^27.0.1",
