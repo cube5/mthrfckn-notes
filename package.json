@@ -5,25 +5,25 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "dependencies": {
     "expo": "^27.0.1",
+    "native-base": "^2.4.3",
     "react": "^16.3.2",
     "react-art": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-native": "^0.55.3",
     "react-native-web": "^0.6.1",
-    "react-scripts": "1.1.4"
+    "react-scripts-nativebase": "^1.1.6"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test:web": "react-scripts test --env=jsdom",
-    
+    "start": "react-scripts-nativebase start",
+    "build": "react-scripts-nativebase build",
+    "test:web": "react-scripts-nativebase test --env=jsdom",
     "start:native": "react-native-scripts start",
     "test:native": "jest --watch",
     "test:native:ci": "jest",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-
-    "test": "CI=true npm run test:web && npm run test:native:ci"
+    "test": "CI=true npm run test:web && npm run test:native:ci",
+    "update": "npx npm-check --update"
   },
   "devDependencies": {
     "jest-expo": "^27.0.1",
