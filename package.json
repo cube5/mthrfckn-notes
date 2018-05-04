@@ -4,14 +4,14 @@
   "private": true,
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
     "expo": "^27.0.1",
     "native-base": "^2.4.3",
     "react": "^16.3.2",
     "react-art": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-native": "^0.55.3",
-    "react-native-web": "^0.6.1",
-    "react-scripts-nativebase": "^1.1.8"
+    "react-native-web": "^0.6.1"
   },
   "scripts": {
     "start": "react-scripts-nativebase start",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "jest-expo": "^27.0.1",
     "react-native-scripts": "^1.14.0",
+    "react-scripts-nativebase": "^1.1.8",
     "react-test-renderer": "^16.3.2"
   }
 }
