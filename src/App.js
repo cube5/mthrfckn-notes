@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./font.css";
 // import { View, Text, TextInput, StyleSheet } from 'react-native'
 
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
@@ -57,27 +58,27 @@ export default class AnatomyExample extends Component {
 //   }
 // }
 
-const styles = StyleSheet.create({
-  app: {
-    flex: 1
-  },
-  appHeader: {
-    flex: 1,
-    backgroundColor: '#222',
-    padding: 20,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  appTitle: {
-    fontSize: 28,
-    color: 'white'
-  },
-  appIntro: {
-    flex: 2,
-    fontSize: 18,
-    textAlign: 'center'
-  },
-  appLogo: {
-    height: 80
-  }
-})
+// const styles = StyleSheet.create({
+//   app: {
+//     flex: 1
+//   },
+//   appHeader: {
+//     flex: 1,
+//     backgroundColor: '#222',
+//     padding: 20,
+//     justifyContent: 'center',
+//     alignItems: 'center'
+//   },
+//   appTitle: {
+//     fontSize: 28,
+//     color: 'white'
+//   },
+//   appIntro: {
+//     flex: 2,
+//     fontSize: 18,
+//     textAlign: 'center'
+//   },
+//   appLogo: {
+//     height: 80
+//   }
+// })
